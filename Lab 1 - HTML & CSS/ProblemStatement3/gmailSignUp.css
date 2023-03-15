@@ -1,0 +1,45 @@
+div {
+    position: absolute;
+    font-size: 20px;
+    top: 20%;
+    right: 35%;
+    min-width: 350px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 50px;
+    line-height: 50px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+
+img {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#body input {
+    width: 300px;
+    min-width: 100px;
+    font-size: 20px;
+}
+
+#body input:focus {
+    color: white;
+    background-color: rgba(70, 30, 180, 0.35);
+}
+
+#body input[type="reset"],
+#body input[type="Submit"] {
+    margin: 20px;
+    border-radius: 4px;
+    height: auto;
+    width: 70px;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(32, 84, 254);
+}
