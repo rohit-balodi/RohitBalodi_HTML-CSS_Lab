@@ -1,0 +1,53 @@
+.top {
+    background-color: red;
+    text-align: right;
+    font-weight: bold;
+    font-size: 32px;
+    padding: 24px;
+}
+
+#navigation {
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+}
+
+.menu {
+    margin: 0%;
+    top: 30%;
+    background-color: rgb(120, 120, 120);
+}
+
+.menu li {
+    padding: 10px;
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+}
+
+.menu li:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.menu li:hover .dropdown {
+    display: block;
+}
+
+
+.dropdown {
+    display: none;
+    position: absolute;
+    width: auto;
+    padding: 0%;
+    top: 140px;
+    background-color: rgb(226, 216, 216);
+}
+
+.dropdown li {
+    display: block;
+    color: steelblue;
+}
+
+.dropdown li:hover {
+    background-color: rgb(113, 108, 108);
+}
